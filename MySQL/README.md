@@ -40,3 +40,11 @@
 
 ***
 
+### Увеличение констант перед установкой большой базы
+
+#### Из php консоли
+`set global max_allowed_packet=1000000000;`
+
+`set global net_buffer_length=1000000;`
+
+***
