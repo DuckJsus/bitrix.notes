@@ -60,3 +60,6 @@
 
 #### Дать пользователю права на базу
 `grant all on sitemanager.* to 'bitrix0'@'localhost';`
+
+#### Команда серверу обновить права
+`flush privileges;`
