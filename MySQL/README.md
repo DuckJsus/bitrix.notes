@@ -48,3 +48,15 @@
 `set global net_buffer_length=1000000;`
 
 ***
+
+### Команды для работы с пользователями
+
+#### Получить пользователей
+`SELECT host, user FROM mysql.user;`
+
+#### Добавить пользователя
+`create user 'bitrix0'@'localhost' identified by 'password';`
+> Для внешних пользователей использовать '%' или конкретный ip вместо 'localhost'
+
+#### Дать пользователю права на базу
+`grant all on sitemanager.* to 'bitrix0'@'localhost';`
