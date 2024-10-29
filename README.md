@@ -1,9 +1,19 @@
 # bitrix.notes
-# Инфа по Битрикс24
-***
-## Битрикс24
+# Сборная солянка по Б24 и сопутствующему
 
-#### Команда для смены прав на пользователя bitrix
-`chown -R bitrix:bitrix ./`
+***
+
+## Ссылки на темы
+***
+
+[Bitrix24/Ссылки](Bitrix24/Ссылки/README.md)
+
+[CentOS](CentOS/README.md)
+
+[Gitlab](Gitlab/README.md)
+
+[Git/Примеры .gitignore файлов](Gitlab/gitignore%20файлы/README.md)
+
+[MySQL](MySQL/README.md)
 
 ***
